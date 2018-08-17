@@ -12,7 +12,7 @@ public class Main_斐波那契 {
 
     public static void main(String[] args){
 
-       int m =  new Main_斐波那楔().Fibonacci(5);
+       int m =  new Main_斐波那契().Fibonacci(5);
        System.out.println(m);
     }
 }
