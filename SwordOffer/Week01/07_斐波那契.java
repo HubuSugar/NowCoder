@@ -15,4 +15,5 @@ public class Main_斐波那契 {
        int m =  new Main_斐波那契().Fibonacci(5);
        System.out.println(m);
     }
+    
 }
