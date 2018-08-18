@@ -55,7 +55,7 @@ public class Main_数组中的逆序对{
 
     public static void main(String[] args) {
        int[]  array = {1,2,3,4,5,6,7,0};
-       int res = new S35().InversePairs(array);
+       int res = new Main_数组中的逆序对().InversePairs(array);
         System.out.println(res);
     }
 
