@@ -2,7 +2,6 @@
 package com.hubu.swordOffer.week04;
 
 public class Main_数组中的逆序对{
-
     public int InversePairs(int [] array) {
 
         if (array == null||array.length == 0) return 0;
@@ -15,7 +14,6 @@ public class Main_数组中的逆序对{
 
         return InversePairsCore(array,copy,0,len -1);
     }
-
 
     private int InversePairsCore(int[] array,int[] copy,int low,int high){
 
