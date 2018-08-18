@@ -42,7 +42,7 @@ public class Main_数据流的中位数 {
     }
 
     public static void main(String[] args) {
-        S63 ss = new S63();
+        Main_数据流的中位数 ss = new Main_数据流的中位数();
         int[] a = {49,38,65,97,76,13,27,49,55,04};
         for (int i = 0; i <  a.length; i++) {
             ss.Insert(a[i]);
