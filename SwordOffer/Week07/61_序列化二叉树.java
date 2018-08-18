@@ -44,8 +44,8 @@ public class Main_序列化二叉树 {
     public static void main(String[] args) {
 
         String string = "1,2,4,#,#,5,#,#,3,6,#,#,7,#,#";
-        TreeNode root = new S61().Deserialize(string);
-        String res =  new S61().Serialize(root);
+        TreeNode root = new Main_序列化二叉树().Deserialize(string);
+        String res =  new Main_序列化二叉树().Serialize(root);
         System.out.println(res);
 
     }
